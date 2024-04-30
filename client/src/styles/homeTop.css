@@ -1,0 +1,21 @@
+.homeTop {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("/images/homeTop.jpg") no-repeat top center / cover;
+}
+
+.homeTop__container{
+    height: 700px;
+}
+
+.homeTop__inner{
+    width: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.homeTop__title{
+    font-size: 52px;
+    color: #FFFFFF;
+    font-weight: bold;
+}

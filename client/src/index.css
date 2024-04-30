@@ -1,0 +1,25 @@
+@import "./styles/null.css";
+.theme-toggle-btn {
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn-success{
+    background-color: #e5989b;
+    border: 2px solid #e5989b;
+    padding: 5px 20px;
+}
+
+.btn-success:active{
+    background-color: #FFFFFF !important;
+    border: 2px solid #e5989b !important;
+    color: #e5989b !important;
+}

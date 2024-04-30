@@ -1,0 +1,126 @@
+.adListPage {
+
+}
+
+.adList {
+    padding-top: 100px;
+    min-height: 100vh;
+    padding-bottom: 50px;
+}
+
+.adList--dark {
+
+    background: url("../../public/images/NEUMORPHIC_CIRCLES_BACKGROUND.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.adList--white {
+    background-color: #ffcdb2;
+}
+
+.adList__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.adList__title {
+    text-align: center;
+    padding-bottom: 100px;
+    font-size: 54px;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+.adList__title--dark {
+    color: white;
+}
+
+.adList__search {
+    padding-bottom: 20px;
+    position: absolute;
+    top: 320px;
+    right: 150px;
+}
+
+.input-group{
+    width: 300px;
+}
+
+.adList__searchInp {
+    width: 100px !important;
+}
+
+.adList__searchInp:focus {
+    width: 500px !important;
+    transition: 0.5s;
+}
+
+
+.adList__list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 46px;
+    flex-wrap: wrap;
+    padding-left: 0;
+    width: 100%;
+}
+
+.adList__item {
+    width: 30%;
+}
+
+.adItem__buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.adList__add {
+    padding-bottom: 15px;
+}
+
+
+
+
+
+.btn-success:hover{
+    background-color: #FFFFFF;
+    border: 2px solid #e5989b;
+    color: #e5989b;
+}
+
+.btn-danger{
+    background-color: #FFFFFF;
+    border: 2px solid #e5989b;
+    color: #e5989b;
+}
+
+.btn-danger:hover{
+    background-color: #e5989b;
+    border: 2px solid #e5989b;
+}
+
+
+.adList__pagination {
+    background: grey;
+}
+
+.loading svg {
+    margin-top: 30px;
+    font-size: 30px;
+}
+
+.card-text {
+    height: 30px;
+}
+
+.card-body{
+    text-align: center;
+    height: 130px;
+}
+

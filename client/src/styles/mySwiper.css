@@ -1,0 +1,28 @@
+.swiper{
+    padding-bottom: 40px;
+    background-color: #ffcdb2;
+}
+
+.mySwiper__item{
+    height: 500px;
+    display: flex;
+    gap: 40px;
+}
+
+.mySwiper__contend{
+    width: 600px;
+    padding-left: 50px;
+}
+
+.mySwiper__img{
+    height: 500px;
+}
+
+.mySwiper__title{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.mySwiper__text{
+    font-size: 20px;
+}
